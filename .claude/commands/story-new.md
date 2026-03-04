@@ -17,5 +17,5 @@ The user will provide: **$ARGUMENTS**
    - **Dependencies** — list any other stories this depends on
 2. Save each story as a separate file in `docs/stories/` using the naming convention `STORY-<NNN>-<slug>.md`.
 3. Auto-increment the story number from the highest existing `STORY-*.md`.
-4. Use the template from `.claude/commands/story-template.md`.
+4. Use the template from `.claude/skills/story-template.md`.
 5. Run `/story-validation` on every new file.

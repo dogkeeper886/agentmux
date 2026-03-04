@@ -13,5 +13,5 @@ The user will provide: **$ARGUMENTS**
    - Add an `## Updates` section at the bottom with the date and description of the change.
    - Revise acceptance criteria if scope changed.
    - Set **Status** to `updated`.
-3. If new stories are needed, create them using `.claude/commands/story-template.md` and reference the originals under **Dependencies**.
+3. If new stories are needed, create them using `.claude/skills/story-template.md` and reference the originals under **Dependencies**.
 4. Run `/story-validation` on every affected file.

@@ -24,10 +24,8 @@ Classify every request as one of:
 ## Workflow
 
 1. **Classify** — Determine the action type from the table above.
-2. **Check existing stories** — Search `docs/stories/` for related `STORY-*.md` files.
-3. **Execute** — Run the matching command (`/story-new`, `/story-enhance`, or `/story-remove`).
-4. **Validate** — Run `/story-validation` on every affected file. Fix failures automatically and re-validate until all pass.
-5. **Summarise** — Output a summary table:
+2. **Execute** — Run the matching command. Each command handles its own story searching, creation/update, and validation.
+3. **Summarise** — Output a summary table:
 
 ```
 | Story ID  | Title | Action                  | Status |
